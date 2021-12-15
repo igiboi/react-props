@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function NewExpense() {
-    return (
-        <div className="new-expense">
-            
-        </div>
-    )
-}
+const NewExpense = () => {
+  return <div className="new-expense"></div>;
+};
 
-export default NewExpense
+export default NewExpense;
